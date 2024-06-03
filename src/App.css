@@ -1,0 +1,50 @@
+/* App.scss or your custom CSS file */
+.instagram-slider-container {
+    position: relative;
+    width: 500px;
+    /* Adjust this width as needed */
+    margin: 0 auto;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Background color of the buttons */
+    border: none;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    color: #333;
+    /* Color of the icon */
+}
+
+.custom-next-arrow {
+    right: 10px;
+    /* Adjust the distance from the right edge for the next button */
+}
+
+.custom-prev-arrow {
+    left: 10px;
+    z-index: 2;
+    /* Adjust the distance from the left edge for the previous button */
+}
+
+.custom-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Background color on hover */
+}
+
+.instagram-slide {
+    text-align: center;
+}
+
+.instagram-slide img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    /* Ensure the image takes the full height of the slider */
+}
