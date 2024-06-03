@@ -8,7 +8,7 @@ function App() {
   }, [])
 
   return (
-    <div className="mt-80 text-xl font-semibold text-center text-green-600">
+    <div className="mt-80 text-xl font-semibold text-center text-blue-600">
       Google Anlaytics Check
     </div>
   );
